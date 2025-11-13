@@ -4,13 +4,13 @@ climate_data = open('data/sc_climate_data_10.csv', 'r')
 
 
 def FahrToCelsius(fahr):
-    """COnverts fahrenehit to celsius
+    """COnverts fahrenehit to Kelvin
 
     Args:
         fahr (float): temperature in fahrenheit
 
     Returns:
-        float: temperature in Celsius
+        float: temperature in Kelvin
     """
     celsius = ((fahr - 32) * (5/9)) 
     return celsius
